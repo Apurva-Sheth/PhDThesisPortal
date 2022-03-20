@@ -1,0 +1,64 @@
+﻿@model PhDThesisPortal.Models.SubmissionDetail
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>SubmissionDetail</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="SubmissionId" />
+            <input type="hidden" asp-for="Id" value="@ViewBag.Id"/>
+            <input type="hidden" asp-for="Description" />
+            <input type="hidden" asp-for="SubmissionFilePath" />
+            <input type="hidden" asp-for="DepartmentId" />
+            <div class="form-group">
+                <label asp-for="FacultyId" class="control-label"></label>
+                <input asp-for="FacultyId" class="form-control" value="@ViewBag.User"/>
+                <span asp-validation-for="FacultyId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StartDate" class="control-label"></label>
+                <input asp-for="StartDate" class="form-control" />
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EndDate" class="control-label"></label>
+                <input asp-for="EndDate" class="form-control" />
+                <span asp-validation-for="EndDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CompletionPercentage" class="control-label"></label>
+                <input asp-for="CompletionPercentage" class="form-control" />
+                <span asp-validation-for="CompletionPercentage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="status"></label> <br />
+                <input asp-for="status" type="radio" value="1"
+                id="SubmissionStatus.Reject" class="form-check-inline" />
+                <label for="Reject">Reject</label>
+                <input asp-for="status" type="radio" value="2"
+                id="SubmissionStatus.Approved" class="form-check-inline" />
+                <label for="Approved">Approved</label>
+                <span asp-validation-for="status" class="text-danger"></span>
+               
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

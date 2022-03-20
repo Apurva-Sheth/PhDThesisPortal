@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhDThesisPortal", "PhDThesisPortal\PhDThesisPortal.csproj", "{C20A59D5-26FC-439C-9C25-3AF5734075E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C20A59D5-26FC-439C-9C25-3AF5734075E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C20A59D5-26FC-439C-9C25-3AF5734075E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C20A59D5-26FC-439C-9C25-3AF5734075E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C20A59D5-26FC-439C-9C25-3AF5734075E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F8EB303-523D-4D56-91E1-83DDB74893E6}
+	EndGlobalSection
+EndGlobal

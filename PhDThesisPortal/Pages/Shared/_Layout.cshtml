@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+	<!-- Title -->
+	<title>@ViewData["Title"] - Thesis Portal</title>
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="assets/img/favicon.png">
+	<!-- Bootstrap Min CSS -->
+	<link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
+	<!-- Animate Min CSS -->
+	<link rel="stylesheet" href="~/assets/css/animate.min.css">
+	<!-- FlatIcon CSS -->
+	<link rel="stylesheet" href="~/assets/css/flaticon.css">
+	<!-- Font Awesome Min CSS -->
+	<link rel="stylesheet" href="~/assets/css/fontawesome.min.css">
+	<!-- Mran Menu CSS -->
+	<link rel="stylesheet" href="~/assets/css/meanmenu.css">
+	<!-- Magnific Popup Min CSS -->
+	<link rel="stylesheet" href="~/assets/css/magnific-popup.min.css">
+	<!-- Nice Select Min CSS -->
+	<link rel="stylesheet" href="~/assets/css/nice-select.min.css">
+	<!-- Swiper Min CSS -->
+	<link rel="stylesheet" href="~/assets/css/swiper.min.css">
+	<!-- Owl Carousel Min CSS -->
+	<link rel="stylesheet" href="~/assets/css/owl.carousel.min.css">
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="~/assets/css/style.css">
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" href="~/assets/css/responsive.css">
+</head>
+<body>
+    <header>
+        <!-- Start Navbar Area -->
+	<div class="navbar-area">
+		<div class="techvio-responsive-nav">
+			<div class="container">
+				<div class="techvio-responsive-menu">
+					<div class="logo">
+						<a href="index.html">
+							@*
+							<img src="~/assets/img/logo.png" class="white-logo" alt="logo">
+							<img src="~/assets/img/logo-black.png" class="black-logo" alt="logo">*@
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="techvio-nav">
+			<div class="container">
+				<nav class="navbar navbar-expand-md navbar-light">
+					<a class="navbar-brand" href="index.html">
+						<img src="~/assets/img/logo.png" class="white-logo" alt="logo">
+						<img src="~/assets/img/logo-black.png" class="black-logo" alt="logo">
+					</a>
+					<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+						
+						<partial name="_LoginPartial" />
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<!-- End Navbar Area -->
+    </header>
+    <div class="container-fluid">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - PhDThesisPortal - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
