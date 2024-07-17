@@ -1,0 +1,22 @@
+{
+    "Model": "XNV-C9083R",
+    "SerialNumber": "ZR6770GR300024T",
+    "FirmwareVersion": "2.20.02_20221223_R324",
+    "BuildDate": "2022.12.23",
+    "WebURL": "http://www.hanwha-security.com/",
+    "DeviceType": "NWC",
+    "ConnectedMACAddress": "00:09:18:69:B8:27",
+    "ISPVersion": "1.20_221111",
+    "BootloaderVersion": "       ",
+    "CGIVersion": "2.6.2",
+    "ONVIFVersion": "20.12",
+    "DeviceName": "Camera",
+    "DeviceLocation": "Location",
+    "DeviceDescription": "Description",
+    "Memo": "Memo",
+    "Language": "Korean",
+    "PasswordStrength": "Strong",
+    "OpenSDKVersion": "4.02_221205",
+    "FirmwareGroup": "XND-C9083RV",
+    "AIModelDetectionVersion": "1.0_2.19_20221211_R0"
+}

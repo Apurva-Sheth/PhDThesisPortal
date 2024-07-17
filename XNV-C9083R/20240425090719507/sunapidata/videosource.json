@@ -1,0 +1,11 @@
+{
+    "VideoSources": [
+        {
+            "Channel": 0,
+            "SensorCaptureFrameRate": "25",
+            "VideoSourceToken": "VideoSourceToken-0",
+            "Fixed": true,
+            "IsCroppedChannel": false
+        }
+    ]
+}

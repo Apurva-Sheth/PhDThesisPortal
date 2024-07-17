@@ -1,0 +1,10 @@
+{
+    "Flip": [
+        {
+            "Channel": 0,
+            "HorizontalFlipEnable": true,
+            "VerticalFlipEnable": true,
+            "Rotate": "0"
+        }
+    ]
+}

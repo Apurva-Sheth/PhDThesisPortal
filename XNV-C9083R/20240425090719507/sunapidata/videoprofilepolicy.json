@@ -1,0 +1,10 @@
+{
+    "VideoProfilePolicies": [
+        {
+            "Channel": 0,
+            "DefaultProfile": 2,
+            "EventProfile": 1,
+            "RecordProfile": 1
+        }
+    ]
+}

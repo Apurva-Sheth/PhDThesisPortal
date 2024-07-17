@@ -1,0 +1,33 @@
+{
+    "ObjectDetection": [
+        {
+            "Channel": 0,
+            "Enable": true,
+            "Duration": 2,
+            "Sensitivity": 80,
+            "MinimumObjectSize": "1,2",
+            "MaximumObjectSize": "50,89",
+            "MinimumObjectSizeInPixels": "65,65",
+            "MaximumObjectSizeInPixels": "1944,1944",
+            "EnableMetadataInExcludeArea": false,
+            "ObjectTypes": [
+                "Person",
+                "Vehicle",
+                "Face",
+                "LicensePlate"
+            ],
+            "ObjectTypeDetails": {
+                "Vehicle": {
+                    "Types": [
+                        "Bicycle",
+                        "Car",
+                        "Motorcycle",
+                        "Bus",
+                        "Truck"
+                    ]
+                }
+            },
+            "HandoverIndex": 0
+        }
+    ]
+}

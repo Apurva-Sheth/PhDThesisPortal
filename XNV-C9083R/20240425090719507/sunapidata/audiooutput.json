@@ -1,0 +1,13 @@
+{
+    "AudioOutputs": [
+        {
+            "Channel": 0,
+            "SampleRate": 8000,
+            "DecodingType": "G711",
+            "Mode": "Mono",
+            "Bitrate": "64000",
+            "Enable": true,
+            "Gain": 5
+        }
+    ]
+}

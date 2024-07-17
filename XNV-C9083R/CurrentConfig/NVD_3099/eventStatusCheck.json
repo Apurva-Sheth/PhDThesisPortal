@@ -1,0 +1,111 @@
+{
+    "AlarmInput": {
+        "1": false
+    },
+    "AlarmOutput": {
+        "1": false
+    },
+    "ChannelEvent": [
+        {
+            "Channel": 0,
+            "MotionDetection": true,
+            "MotionDetectionRegions": {
+                "1": true
+            },
+            "MotionDetectionRegionsLevel": {
+                "1": 92
+            },
+            "Tampering": false,
+            "AudioDetection": false,
+            "DefocusDetection": false,
+            "FogDetection": false,
+            "VideoAnalytics": {
+                "Passing": false,
+                "Intrusion": false,
+                "Entering": false,
+                "Exiting": true,
+                "Appearing": false,
+                "Loitering": false
+            },
+            "AudioAnalytics": {
+                "Scream": false,
+                "Gunshot": false,
+                "Explosion": false,
+                "GlassBreak": false
+            },
+            "QueueEvent": {
+                "Queues": [
+                    {
+                        "Queue": 1,
+                        "QueueLevels": [
+                            {
+                                "High": false
+                            },
+                            {
+                                "Medium": false
+                            }
+                        ]
+                    },
+                    {
+                        "Queue": 2,
+                        "QueueLevels": [
+                            {
+                                "High": false
+                            },
+                            {
+                                "Medium": false
+                            }
+                        ]
+                    },
+                    {
+                        "Queue": 3,
+                        "QueueLevels": [
+                            {
+                                "High": false
+                            },
+                            {
+                                "Medium": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            "ShockDetection": false,
+            "ObjectDetection": {
+                "ObjectDetection": false,
+                "ObjectTypes": {
+                    "Person": false,
+                    "Vehicle": false,
+                    "Face": false,
+                    "LicensePlate": false
+                },
+                "ObjectTypeDetails": {
+                    "Vehicle.Types.Bicycle": false,
+                    "Vehicle.Types.Car": false,
+                    "Vehicle.Types.Motorcycle": false,
+                    "Vehicle.Types.Bus": false,
+                    "Vehicle.Types.Truck": false
+                }
+            }
+        }
+    ],
+    "SystemEvent": {
+        "TimeChange": false,
+        "PowerReboot": false,
+        "FWUpdate": false,
+        "FactoryReset": false,
+        "ConfigurationBackup": false,
+        "ConfigurationRestore": false,
+        "ConfigChange": false,
+        "SDFormat": false,
+        "SDFail": false,
+        "SDFull": false,
+        "SDInsert": false,
+        "SDRemove": true,
+        "NASConnect": false,
+        "NASDisconnect": true,
+        "NASFail": false,
+        "NASFull": false,
+        "NASFormat": false
+    }
+}

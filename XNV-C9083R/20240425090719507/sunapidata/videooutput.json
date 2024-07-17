@@ -1,0 +1,7 @@
+{
+    "Response": "Fail",
+    "Error": {
+        "Code": 608,
+        "Details": "Feature(s) Not Implemented OR Not Supported"
+    }
+}

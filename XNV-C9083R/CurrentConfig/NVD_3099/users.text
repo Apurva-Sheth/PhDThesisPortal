@@ -1,0 +1,12 @@
+"Users.Index=UserID/Password/Enable/VideoProfileAccess/PTZAccess/AudioInAccess/AudioOutAccess/AlarmOutputAccess/AdminAccess/PrivacyAreaAccess/VideoProfileSettingAccess/ImageSettingAccess/VideoSetupAccess/FocusSetupAccess/PlayBackAccess"
+Users.0=admin//True/True//True/True/True/True/True/True/True/True/True/True
+Users.1=user1//False/False//False/False/False/False/False/False/False/False/False/False
+Users.2=user2//False/False//False/False/False/False/False/False/False/False/False/False
+Users.3=user3//False/False//False/False/False/False/False/False/False/False/False/False
+Users.4=user4//False/False//False/False/False/False/False/False/False/False/False/False
+Users.5=user5//False/False//False/False/False/False/False/False/False/False/False/False
+Users.6=user6//False/False//False/False/False/False/False/False/False/False/False/False
+Users.7=user7//False/False//False/False/False/False/False/False/False/False/False/False
+Users.8=user8//False/False//False/False/False/False/False/False/False/False/False/False
+Users.9=user9//False/False//False/False/False/False/False/False/False/False/False/False
+Users.10=user10//False/False//False/False/False/False/False/False/False/False/False/False

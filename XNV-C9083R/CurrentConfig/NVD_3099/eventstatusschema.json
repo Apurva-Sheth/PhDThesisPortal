@@ -1,0 +1,506 @@
+{
+    "type": "array",
+    "items": [
+        {
+            "type": "object",
+            "properties": {
+                "Time": {
+                    "type": "string"
+                },
+                "EventName": {
+                    "enum": [
+                        "AlarmInput",
+                        "AlarmOutput"
+                    ]
+                },
+                "Source": {
+                    "type": "object",
+                    "properties": {
+                        "Channel": {
+                            "type": "number"
+                        },
+                        "SourceID": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "Data": {
+                    "type": "object",
+                    "properties": {
+                        "State": {
+                            "type": "boolean"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "object",
+            "properties": {
+                "Time": {
+                    "type": "string"
+                },
+                "EventName": {
+                    "enum": [
+                        "Tampering",
+                        "AudioDetection",
+                        "DefocusDetection",
+                        "FogDetection",
+                        "ShockDetection"
+                    ]
+                },
+                "Source": {
+                    "type": "object",
+                    "properties": {
+                        "Channel": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "Data": {
+                    "type": "object",
+                    "properties": {
+                        "State": {
+                            "type": "boolean"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "object",
+            "properties": {
+                "Time": {
+                    "type": "string"
+                },
+                "EventName": {
+                    "enum": [
+                        "AudioAnalytics.Scream",
+                        "AudioAnalytics.Gunshot",
+                        "AudioAnalytics.Explosion",
+                        "AudioAnalytics.GlassBreak"
+                    ]
+                },
+                "Source": {
+                    "type": "object",
+                    "properties": {
+                        "Channel": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "Data": {
+                    "type": "object",
+                    "properties": {
+                        "State": {
+                            "type": "boolean"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "object",
+            "properties": {
+                "Time": {
+                    "type": "string"
+                },
+                "EventName": {
+                    "enum": [
+                        "ObjectDetection"
+                    ]
+                },
+                "Source": {
+                    "type": "object",
+                    "properties": {
+                        "Channel": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "Data": {
+                    "type": "object",
+                    "properties": {
+                        "State": {
+                            "type": "boolean"
+                        },
+                        "ObjectTypes": {
+                            "type": "string"
+                        },
+                        "ObjectTypeDetails": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "object",
+            "properties": {
+                "Time": {
+                    "type": "string"
+                },
+                "EventName": {
+                    "enum": [
+                        "MotionDetection"
+                    ]
+                },
+                "Source": {
+                    "type": "object",
+                    "properties": {
+                        "Channel": {
+                            "type": "number"
+                        },
+                        "ROIID": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "Data": {
+                    "type": "object",
+                    "properties": {
+                        "State": {
+                            "type": "boolean"
+                        },
+                        "Level": {
+                            "type": "number"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "object",
+            "properties": {
+                "Time": {
+                    "type": "string"
+                },
+                "EventName": {
+                    "enum": [
+                        "VideoAnalytics.Intrusion",
+                        "VideoAnalytics.Entering",
+                        "VideoAnalytics.Exiting",
+                        "VideoAnalytics.Appearing",
+                        "VideoAnalytics.Loitering"
+                    ]
+                },
+                "Source": {
+                    "type": "object",
+                    "properties": {
+                        "Channel": {
+                            "type": "number"
+                        },
+                        "DefinedAreaID": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "Data": {
+                    "type": "object",
+                    "properties": {
+                        "State": {
+                            "type": "boolean"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "object",
+            "properties": {
+                "Time": {
+                    "type": "string"
+                },
+                "EventName": {
+                    "enum": [
+                        "VideoAnalytics.Passing"
+                    ]
+                },
+                "Source": {
+                    "type": "object",
+                    "properties": {
+                        "Channel": {
+                            "type": "number"
+                        },
+                        "LineID": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "Data": {
+                    "type": "object",
+                    "properties": {
+                        "State": {
+                            "type": "boolean"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "object",
+            "properties": {
+                "Time": {
+                    "type": "string"
+                },
+                "EventName": {
+                    "enum": [
+                        "Queue"
+                    ]
+                },
+                "Source": {
+                    "type": "object",
+                    "properties": {
+                        "Channel": {
+                            "type": "number"
+                        },
+                        "ROIID": {
+                            "type": "number"
+                        },
+                        "Level": {
+                            "enum": [
+                                "High",
+                                "Medium"
+                            ]
+                        }
+                    }
+                },
+                "Data": {
+                    "type": "object",
+                    "properties": {
+                        "State": {
+                            "type": "boolean"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "object",
+            "properties": {
+                "Time": {
+                    "type": "string"
+                },
+                "EventName": {
+                    "enum": [
+                        "SystemEvent.TimeChange",
+                        "SystemEvent.PowerReboot",
+                        "SystemEvent.FWUpdate",
+                        "SystemEvent.FactoryReset",
+                        "SystemEvent.ConfigurationBackup",
+                        "SystemEvent.ConfigurationRestore",
+                        "SystemEvent.ConfigChange",
+                        "SystemEvent.SDFormat",
+                        "SystemEvent.SDFail",
+                        "SystemEvent.SDFull",
+                        "SystemEvent.SDInsert",
+                        "SystemEvent.SDRemove",
+                        "SystemEvent.NASConnect",
+                        "SystemEvent.NASDisconnect",
+                        "SystemEvent.NASFail",
+                        "SystemEvent.NASFull",
+                        "SystemEvent.NASFormat"
+                    ]
+                },
+                "Source": {
+                    "type": "object",
+                    "properties": {}
+                },
+                "Data": {
+                    "type": "object",
+                    "properties": {
+                        "State": {
+                            "type": "boolean"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "object",
+            "properties": {
+                "Time": {
+                    "type": "string"
+                },
+                "EventName": {
+                    "enum": [
+                        "ConfigChange"
+                    ]
+                },
+                "Source": {
+                    "type": "object",
+                    "properties": {
+                        "Channel": {
+                            "type": "number"
+                        },
+                        "ChangedConfigURI": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "Data": {
+                    "type": "object",
+                    "properties": {
+                        "State": {
+                            "type": "boolean"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "object",
+            "properties": {
+                "Time": {
+                    "type": "string"
+                },
+                "EventName": {
+                    "enum": [
+                        "OpenSDK"
+                    ]
+                },
+                "Source": {
+                    "type": "object",
+                    "properties": {
+                        "Channel": {
+                            "type": "number"
+                        },
+                        "AppName": {
+                            "type": "string"
+                        },
+                        "AppEvent": {
+                            "type": "string"
+                        },
+                        "AppID": {
+                            "type": "string"
+                        },
+                        "Type": {
+                            "enum": [
+                                "Event"
+                            ]
+                        }
+                    }
+                },
+                "Data": {
+                    "type": "object",
+                    "properties": {
+                        "State": {
+                            "type": "boolean"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "object",
+            "properties": {
+                "Time": {
+                    "type": "string"
+                },
+                "EventName": {
+                    "enum": [
+                        "OpenSDK"
+                    ]
+                },
+                "Source": {
+                    "type": "object",
+                    "properties": {
+                        "Channel": {
+                            "type": "number"
+                        },
+                        "AppName": {
+                            "type": "string"
+                        },
+                        "AppEvent": {
+                            "type": "string"
+                        },
+                        "AppID": {
+                            "type": "string"
+                        },
+                        "Type": {
+                            "enum": [
+                                "Meta"
+                            ]
+                        }
+                    }
+                },
+                "Data": {
+                    "type": "object",
+                    "properties": {
+                        "Info": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "object",
+            "properties": {
+                "Time": {
+                    "type": "string"
+                },
+                "EventName": {
+                    "enum": [
+                        "MQTTSubscription"
+                    ]
+                },
+                "Source": {
+                    "type": "object",
+                    "properties": {
+                        "Index": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "Data": {
+                    "type": "object",
+                    "properties": {
+                        "State": {
+                            "type": "boolean"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "object",
+            "properties": {
+                "Time": {
+                    "type": "string"
+                },
+                "EventName": {
+                    "enum": [
+                        "OpenSDKAppStatus"
+                    ]
+                },
+                "Source": {
+                    "type": "object",
+                    "properties": {
+                        "AppID": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "Data": {
+                    "type": "object",
+                    "properties": {
+                        "Status": {
+                            "enum": [
+                                "Installing",
+                                "Inactive",
+                                "Active",
+                                "Uninstalling",
+                                "Removed",
+                                "InstallationFailed"
+                            ]
+                        },
+                        "Description": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

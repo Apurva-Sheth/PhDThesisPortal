@@ -1,0 +1,11 @@
+{
+    "AlarmOutputs": [
+        {
+            "AlarmOutput": 1,
+            "Type": "Alarmout",
+            "IdleState": "NormallyOpen",
+            "ManualDuration": "Always",
+            "IOPortIndex": 2
+        }
+    ]
+}

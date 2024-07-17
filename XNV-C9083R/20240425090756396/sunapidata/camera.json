@@ -1,0 +1,1005 @@
+{
+    "Camera": [
+        {
+            "Channel": 0,
+            "CompensationMode": "Off",
+            "BLCLevel": "Medium",
+            "NormalizedBLCLevel": 50,
+            "BLCAreaTop": 31,
+            "BLCAreaBottom": 71,
+            "BLCAreaLeft": 31,
+            "BLCAreaRight": 71,
+            "BLCAreaCoordinates": [
+                {
+                    "x1": 1164,
+                    "y1": 655
+                },
+                {
+                    "x2": 2715,
+                    "y2": 1528
+                }
+            ],
+            "HLCLevel": "Medium",
+            "NormalizedHLCLevel": 50,
+            "HLCMaskTone": 100,
+            "HLCMode": "On",
+            "HLCMaskColor": "Black",
+            "HLCDimming": "Off",
+            "HLCAreaTop": 31,
+            "HLCAreaBottom": 71,
+            "HLCAreaLeft": 31,
+            "HLCAreaRight": 71,
+            "HLCAreaCoordinates": [
+                {
+                    "x1": 1164,
+                    "y1": 655
+                },
+                {
+                    "x2": 2715,
+                    "y2": 1528
+                }
+            ],
+            "WDRLevel": "High",
+            "WDRAreaTop": 1,
+            "WDRAreaBottom": 100,
+            "WDRAreaLeft": 1,
+            "WDRAreaRight": 100,
+            "WDRAreaCoordinates": [
+                {
+                    "x1": 1,
+                    "y1": 1
+                },
+                {
+                    "x2": 3840,
+                    "y2": 2160
+                }
+            ],
+            "AutoShortShutterSpeed": "1/25",
+            "AutoLongShutterSpeed": "1/12000",
+            "PreferShutterSpeed": "1/200",
+            "PreferShutterAISupportEnable": false,
+            "AFLKMode": "Off",
+            "SSNREnable": true,
+            "SSNRMode": "Manual",
+            "SSNRLevel": 12,
+            "SSNR2DLevel": 12,
+            "SSNR3DLevel": 12,
+            "IrisMode": "Auto",
+            "IrisFno": "F1.3",
+            "AGCMode": "MaxGain",
+            "AGCLevel": 1,
+            "AGCMaxGainLevel": 60,
+            "DayNightMode": "Auto",
+            "DayNightSwitchingTime": "5s",
+            "DayNightSwitchingMode": "Normal",
+            "DNSwitchColorToBWThreshold": 70,
+            "DNSwitchBWToColorThreshold": 30,
+            "DayNightAlarmIn": "SwitchToBWIfCloses",
+            "DayNightModeSchedules": {
+                "EveryDay": {
+                    "DayNightSchedule": true,
+                    "FromTo": "0:00-23:59"
+                },
+                "SUN": {
+                    "DayNightSchedule": true,
+                    "FromTo": "0:00-23:59"
+                },
+                "MON": {
+                    "DayNightSchedule": true,
+                    "FromTo": "0:00-23:59"
+                },
+                "TUE": {
+                    "DayNightSchedule": true,
+                    "FromTo": "0:00-23:59"
+                },
+                "WED": {
+                    "DayNightSchedule": true,
+                    "FromTo": "0:00-23:59"
+                },
+                "THU": {
+                    "DayNightSchedule": true,
+                    "FromTo": "0:00-23:59"
+                },
+                "FRI": {
+                    "DayNightSchedule": true,
+                    "FromTo": "0:00-23:59"
+                },
+                "SAT": {
+                    "DayNightSchedule": true,
+                    "FromTo": "0:00-23:59"
+                }
+            },
+            "WDRControlMode": "AlwaysOn",
+            "ImagePreset": [
+                {
+                    "ImagePresetMode": "UserPreset1",
+                    "CompensationMode": "Off",
+                    "BLCLevel": "Medium",
+                    "NormalizedBLCLevel": 50,
+                    "BLCAreaTop": 31,
+                    "BLCAreaBottom": 71,
+                    "BLCAreaLeft": 31,
+                    "BLCAreaRight": 71,
+                    "BLCAreaCoordinates": [
+                        {
+                            "x1": 1164,
+                            "y1": 655
+                        },
+                        {
+                            "x2": 2715,
+                            "y2": 1528
+                        }
+                    ],
+                    "HLCLevel": "Medium",
+                    "NormalizedHLCLevel": 50,
+                    "HLCMaskTone": 100,
+                    "HLCMode": "On",
+                    "HLCMaskColor": "Black",
+                    "HLCDimming": "Off",
+                    "HLCAreaTop": 31,
+                    "HLCAreaBottom": 71,
+                    "HLCAreaLeft": 31,
+                    "HLCAreaRight": 71,
+                    "HLCAreaCoordinates": [
+                        {
+                            "x1": 1164,
+                            "y1": 655
+                        },
+                        {
+                            "x2": 2715,
+                            "y2": 1528
+                        }
+                    ],
+                    "WDRLevel": "High",
+                    "WDRAreaTop": 1,
+                    "WDRAreaBottom": 100,
+                    "WDRAreaLeft": 1,
+                    "WDRAreaRight": 100,
+                    "WDRAreaCoordinates": [
+                        {
+                            "x1": 1,
+                            "y1": 1
+                        },
+                        {
+                            "x2": 3840,
+                            "y2": 2160
+                        }
+                    ],
+                    "AutoShortShutterSpeed": "1/25",
+                    "AutoLongShutterSpeed": "1/12000",
+                    "PreferShutterSpeed": "1/200",
+                    "PreferShutterAISupportEnable": false,
+                    "AFLKMode": "Off",
+                    "SSNREnable": true,
+                    "SSNRMode": "Manual",
+                    "SSNRLevel": 12,
+                    "SSNR2DLevel": 12,
+                    "SSNR3DLevel": 12,
+                    "IrisMode": "Auto",
+                    "IrisFno": "F1.3",
+                    "AGCMode": "MaxGain",
+                    "AGCLevel": 1,
+                    "AGCMaxGainLevel": 60,
+                    "DayNightMode": "Auto",
+                    "DayNightSwitchingTime": "5s",
+                    "DayNightSwitchingMode": "Normal",
+                    "DNSwitchColorToBWThreshold": 70,
+                    "DNSwitchBWToColorThreshold": 30,
+                    "DayNightAlarmIn": "SwitchToBWIfCloses",
+                    "DayNightModeSchedules": {
+                        "EveryDay": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "SUN": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "MON": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "TUE": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "WED": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "THU": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "FRI": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "SAT": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        }
+                    },
+                    "WDRControlMode": "AlwaysOn"
+                },
+                {
+                    "ImagePresetMode": "UserPreset2",
+                    "CompensationMode": "Off",
+                    "BLCLevel": "Medium",
+                    "NormalizedBLCLevel": 50,
+                    "BLCAreaTop": 31,
+                    "BLCAreaBottom": 71,
+                    "BLCAreaLeft": 31,
+                    "BLCAreaRight": 71,
+                    "BLCAreaCoordinates": [
+                        {
+                            "x1": 1164,
+                            "y1": 655
+                        },
+                        {
+                            "x2": 2715,
+                            "y2": 1528
+                        }
+                    ],
+                    "HLCLevel": "Medium",
+                    "NormalizedHLCLevel": 50,
+                    "HLCMaskTone": 100,
+                    "HLCMode": "On",
+                    "HLCMaskColor": "Black",
+                    "HLCDimming": "Off",
+                    "HLCAreaTop": 31,
+                    "HLCAreaBottom": 71,
+                    "HLCAreaLeft": 31,
+                    "HLCAreaRight": 71,
+                    "HLCAreaCoordinates": [
+                        {
+                            "x1": 1164,
+                            "y1": 655
+                        },
+                        {
+                            "x2": 2715,
+                            "y2": 1528
+                        }
+                    ],
+                    "WDRLevel": "High",
+                    "WDRAreaTop": 1,
+                    "WDRAreaBottom": 100,
+                    "WDRAreaLeft": 1,
+                    "WDRAreaRight": 100,
+                    "WDRAreaCoordinates": [
+                        {
+                            "x1": 1,
+                            "y1": 1
+                        },
+                        {
+                            "x2": 3840,
+                            "y2": 2160
+                        }
+                    ],
+                    "AutoShortShutterSpeed": "1/25",
+                    "AutoLongShutterSpeed": "1/12000",
+                    "PreferShutterSpeed": "1/200",
+                    "PreferShutterAISupportEnable": false,
+                    "AFLKMode": "Off",
+                    "SSNREnable": true,
+                    "SSNRMode": "Manual",
+                    "SSNRLevel": 12,
+                    "SSNR2DLevel": 12,
+                    "SSNR3DLevel": 12,
+                    "IrisMode": "Auto",
+                    "IrisFno": "F1.3",
+                    "AGCMode": "MaxGain",
+                    "AGCLevel": 1,
+                    "AGCMaxGainLevel": 60,
+                    "DayNightMode": "Auto",
+                    "DayNightSwitchingTime": "5s",
+                    "DayNightSwitchingMode": "Normal",
+                    "DNSwitchColorToBWThreshold": 70,
+                    "DNSwitchBWToColorThreshold": 30,
+                    "DayNightAlarmIn": "SwitchToBWIfCloses",
+                    "DayNightModeSchedules": {
+                        "EveryDay": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "SUN": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "MON": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "TUE": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "WED": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "THU": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "FRI": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "SAT": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        }
+                    },
+                    "WDRControlMode": "AlwaysOn"
+                },
+                {
+                    "ImagePresetMode": "OutdoorDaytime",
+                    "CompensationMode": "Off",
+                    "BLCLevel": "Medium",
+                    "NormalizedBLCLevel": 50,
+                    "BLCAreaTop": 31,
+                    "BLCAreaBottom": 71,
+                    "BLCAreaLeft": 31,
+                    "BLCAreaRight": 71,
+                    "BLCAreaCoordinates": [
+                        {
+                            "x1": 1164,
+                            "y1": 655
+                        },
+                        {
+                            "x2": 2715,
+                            "y2": 1528
+                        }
+                    ],
+                    "HLCLevel": "Medium",
+                    "NormalizedHLCLevel": 50,
+                    "HLCMaskTone": 100,
+                    "HLCMode": "On",
+                    "HLCMaskColor": "Black",
+                    "HLCDimming": "Off",
+                    "HLCAreaTop": 31,
+                    "HLCAreaBottom": 71,
+                    "HLCAreaLeft": 31,
+                    "HLCAreaRight": 71,
+                    "HLCAreaCoordinates": [
+                        {
+                            "x1": 1164,
+                            "y1": 655
+                        },
+                        {
+                            "x2": 2715,
+                            "y2": 1528
+                        }
+                    ],
+                    "WDRLevel": "Medium",
+                    "WDRAreaTop": 1,
+                    "WDRAreaBottom": 100,
+                    "WDRAreaLeft": 1,
+                    "WDRAreaRight": 100,
+                    "WDRAreaCoordinates": [
+                        {
+                            "x1": 1,
+                            "y1": 1
+                        },
+                        {
+                            "x2": 3840,
+                            "y2": 2160
+                        }
+                    ],
+                    "AutoShortShutterSpeed": "1/25",
+                    "AutoLongShutterSpeed": "1/12000",
+                    "PreferShutterSpeed": "1/250",
+                    "PreferShutterAISupportEnable": false,
+                    "AFLKMode": "Off",
+                    "SSNREnable": true,
+                    "SSNRMode": "Manual",
+                    "SSNRLevel": 12,
+                    "SSNR2DLevel": 12,
+                    "SSNR3DLevel": 12,
+                    "IrisMode": "Auto",
+                    "IrisFno": "F1.3",
+                    "AGCMode": "MaxGain",
+                    "AGCLevel": 1,
+                    "AGCMaxGainLevel": 60,
+                    "DayNightMode": "Auto",
+                    "DayNightSwitchingTime": "5s",
+                    "DayNightSwitchingMode": "Normal",
+                    "DNSwitchColorToBWThreshold": 70,
+                    "DNSwitchBWToColorThreshold": 30,
+                    "DayNightAlarmIn": "SwitchToBWIfCloses",
+                    "DayNightModeSchedules": {
+                        "EveryDay": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "SUN": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "MON": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "TUE": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "WED": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "THU": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "FRI": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "SAT": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        }
+                    },
+                    "WDRControlMode": "AlwaysOn"
+                },
+                {
+                    "ImagePresetMode": "OutdoorNightime",
+                    "CompensationMode": "Off",
+                    "BLCLevel": "Medium",
+                    "NormalizedBLCLevel": 50,
+                    "BLCAreaTop": 31,
+                    "BLCAreaBottom": 71,
+                    "BLCAreaLeft": 31,
+                    "BLCAreaRight": 71,
+                    "BLCAreaCoordinates": [
+                        {
+                            "x1": 1164,
+                            "y1": 655
+                        },
+                        {
+                            "x2": 2715,
+                            "y2": 1528
+                        }
+                    ],
+                    "HLCLevel": "Medium",
+                    "NormalizedHLCLevel": 50,
+                    "HLCMaskTone": 100,
+                    "HLCMode": "On",
+                    "HLCMaskColor": "Black",
+                    "HLCDimming": "Off",
+                    "HLCAreaTop": 31,
+                    "HLCAreaBottom": 71,
+                    "HLCAreaLeft": 31,
+                    "HLCAreaRight": 71,
+                    "HLCAreaCoordinates": [
+                        {
+                            "x1": 1164,
+                            "y1": 655
+                        },
+                        {
+                            "x2": 2715,
+                            "y2": 1528
+                        }
+                    ],
+                    "WDRLevel": "Medium",
+                    "WDRAreaTop": 1,
+                    "WDRAreaBottom": 100,
+                    "WDRAreaLeft": 1,
+                    "WDRAreaRight": 100,
+                    "WDRAreaCoordinates": [
+                        {
+                            "x1": 1,
+                            "y1": 1
+                        },
+                        {
+                            "x2": 3840,
+                            "y2": 2160
+                        }
+                    ],
+                    "AutoShortShutterSpeed": "1/25",
+                    "AutoLongShutterSpeed": "1/12000",
+                    "PreferShutterSpeed": "1/200",
+                    "PreferShutterAISupportEnable": false,
+                    "AFLKMode": "Off",
+                    "SSNREnable": true,
+                    "SSNRMode": "Manual",
+                    "SSNRLevel": 12,
+                    "SSNR2DLevel": 12,
+                    "SSNR3DLevel": 12,
+                    "IrisMode": "Auto",
+                    "IrisFno": "F1.3",
+                    "AGCMode": "MaxGain",
+                    "AGCLevel": 1,
+                    "AGCMaxGainLevel": 60,
+                    "DayNightMode": "Auto",
+                    "DayNightSwitchingTime": "5s",
+                    "DayNightSwitchingMode": "Normal",
+                    "DNSwitchColorToBWThreshold": 70,
+                    "DNSwitchBWToColorThreshold": 30,
+                    "DayNightAlarmIn": "SwitchToBWIfCloses",
+                    "DayNightModeSchedules": {
+                        "EveryDay": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "SUN": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "MON": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "TUE": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "WED": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "THU": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "FRI": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "SAT": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        }
+                    },
+                    "WDRControlMode": "AlwaysOn"
+                },
+                {
+                    "ImagePresetMode": "IndoorBacklight",
+                    "CompensationMode": "WDR",
+                    "BLCLevel": "Medium",
+                    "NormalizedBLCLevel": 50,
+                    "BLCAreaTop": 31,
+                    "BLCAreaBottom": 71,
+                    "BLCAreaLeft": 31,
+                    "BLCAreaRight": 71,
+                    "BLCAreaCoordinates": [
+                        {
+                            "x1": 1164,
+                            "y1": 655
+                        },
+                        {
+                            "x2": 2715,
+                            "y2": 1528
+                        }
+                    ],
+                    "HLCLevel": "Medium",
+                    "NormalizedHLCLevel": 50,
+                    "HLCMaskTone": 100,
+                    "HLCMode": "On",
+                    "HLCMaskColor": "Black",
+                    "HLCDimming": "Off",
+                    "HLCAreaTop": 31,
+                    "HLCAreaBottom": 71,
+                    "HLCAreaLeft": 31,
+                    "HLCAreaRight": 71,
+                    "HLCAreaCoordinates": [
+                        {
+                            "x1": 1164,
+                            "y1": 655
+                        },
+                        {
+                            "x2": 2715,
+                            "y2": 1528
+                        }
+                    ],
+                    "WDRLevel": "Low",
+                    "WDRAreaTop": 1,
+                    "WDRAreaBottom": 100,
+                    "WDRAreaLeft": 1,
+                    "WDRAreaRight": 100,
+                    "WDRAreaCoordinates": [
+                        {
+                            "x1": 1,
+                            "y1": 1
+                        },
+                        {
+                            "x2": 3840,
+                            "y2": 2160
+                        }
+                    ],
+                    "AutoShortShutterSpeed": "1/50",
+                    "AutoLongShutterSpeed": "1/1500",
+                    "PreferShutterSpeed": "1/200",
+                    "PreferShutterAISupportEnable": false,
+                    "AFLKMode": "Off",
+                    "SSNREnable": true,
+                    "SSNRMode": "Manual",
+                    "SSNRLevel": 24,
+                    "SSNR2DLevel": 24,
+                    "SSNR3DLevel": 24,
+                    "IrisMode": "Manual",
+                    "IrisFno": "F1.3",
+                    "AGCMode": "MaxGain",
+                    "AGCLevel": 1,
+                    "AGCMaxGainLevel": 60,
+                    "DayNightMode": "Auto",
+                    "DayNightSwitchingTime": "5s",
+                    "DayNightSwitchingMode": "Normal",
+                    "DNSwitchColorToBWThreshold": 70,
+                    "DNSwitchBWToColorThreshold": 30,
+                    "DayNightAlarmIn": "SwitchToBWIfCloses",
+                    "DayNightModeSchedules": {
+                        "EveryDay": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "SUN": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "MON": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "TUE": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "WED": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "THU": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "FRI": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "SAT": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        }
+                    },
+                    "WDRControlMode": "AlwaysOn"
+                },
+                {
+                    "ImagePresetMode": "IndoorBrightScene",
+                    "CompensationMode": "Off",
+                    "BLCLevel": "Medium",
+                    "NormalizedBLCLevel": 50,
+                    "BLCAreaTop": 31,
+                    "BLCAreaBottom": 71,
+                    "BLCAreaLeft": 31,
+                    "BLCAreaRight": 71,
+                    "BLCAreaCoordinates": [
+                        {
+                            "x1": 1164,
+                            "y1": 655
+                        },
+                        {
+                            "x2": 2715,
+                            "y2": 1528
+                        }
+                    ],
+                    "HLCLevel": "Medium",
+                    "NormalizedHLCLevel": 50,
+                    "HLCMaskTone": 100,
+                    "HLCMode": "On",
+                    "HLCMaskColor": "Black",
+                    "HLCDimming": "Off",
+                    "HLCAreaTop": 31,
+                    "HLCAreaBottom": 71,
+                    "HLCAreaLeft": 31,
+                    "HLCAreaRight": 71,
+                    "HLCAreaCoordinates": [
+                        {
+                            "x1": 1164,
+                            "y1": 655
+                        },
+                        {
+                            "x2": 2715,
+                            "y2": 1528
+                        }
+                    ],
+                    "WDRLevel": "Medium",
+                    "WDRAreaTop": 1,
+                    "WDRAreaBottom": 100,
+                    "WDRAreaLeft": 1,
+                    "WDRAreaRight": 100,
+                    "WDRAreaCoordinates": [
+                        {
+                            "x1": 1,
+                            "y1": 1
+                        },
+                        {
+                            "x2": 3840,
+                            "y2": 2160
+                        }
+                    ],
+                    "AutoShortShutterSpeed": "1/25",
+                    "AutoLongShutterSpeed": "1/12000",
+                    "PreferShutterSpeed": "1/50",
+                    "PreferShutterAISupportEnable": false,
+                    "AFLKMode": "Off",
+                    "SSNREnable": true,
+                    "SSNRMode": "Manual",
+                    "SSNRLevel": 12,
+                    "SSNR2DLevel": 12,
+                    "SSNR3DLevel": 12,
+                    "IrisMode": "Auto",
+                    "IrisFno": "F1.3",
+                    "AGCMode": "MaxGain",
+                    "AGCLevel": 1,
+                    "AGCMaxGainLevel": 60,
+                    "DayNightMode": "Auto",
+                    "DayNightSwitchingTime": "5s",
+                    "DayNightSwitchingMode": "Normal",
+                    "DNSwitchColorToBWThreshold": 70,
+                    "DNSwitchBWToColorThreshold": 30,
+                    "DayNightAlarmIn": "SwitchToBWIfCloses",
+                    "DayNightModeSchedules": {
+                        "EveryDay": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "SUN": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "MON": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "TUE": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "WED": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "THU": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "FRI": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "SAT": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        }
+                    },
+                    "WDRControlMode": "AlwaysOn"
+                },
+                {
+                    "ImagePresetMode": "NumberPlate",
+                    "CompensationMode": "Off",
+                    "BLCLevel": "Medium",
+                    "NormalizedBLCLevel": 50,
+                    "BLCAreaTop": 31,
+                    "BLCAreaBottom": 71,
+                    "BLCAreaLeft": 31,
+                    "BLCAreaRight": 71,
+                    "BLCAreaCoordinates": [
+                        {
+                            "x1": 1164,
+                            "y1": 655
+                        },
+                        {
+                            "x2": 2715,
+                            "y2": 1528
+                        }
+                    ],
+                    "HLCLevel": "Medium",
+                    "NormalizedHLCLevel": 50,
+                    "HLCMaskTone": 100,
+                    "HLCMode": "On",
+                    "HLCMaskColor": "Black",
+                    "HLCDimming": "Off",
+                    "HLCAreaTop": 31,
+                    "HLCAreaBottom": 71,
+                    "HLCAreaLeft": 31,
+                    "HLCAreaRight": 71,
+                    "HLCAreaCoordinates": [
+                        {
+                            "x1": 1164,
+                            "y1": 655
+                        },
+                        {
+                            "x2": 2715,
+                            "y2": 1528
+                        }
+                    ],
+                    "WDRLevel": "Medium",
+                    "WDRAreaTop": 1,
+                    "WDRAreaBottom": 100,
+                    "WDRAreaLeft": 1,
+                    "WDRAreaRight": 100,
+                    "WDRAreaCoordinates": [
+                        {
+                            "x1": 1,
+                            "y1": 1
+                        },
+                        {
+                            "x2": 3840,
+                            "y2": 2160
+                        }
+                    ],
+                    "AutoShortShutterSpeed": "1/300",
+                    "AutoLongShutterSpeed": "1/12000",
+                    "PreferShutterSpeed": "1/500",
+                    "PreferShutterAISupportEnable": false,
+                    "AFLKMode": "Off",
+                    "SSNREnable": true,
+                    "SSNRMode": "Manual",
+                    "SSNRLevel": 4,
+                    "SSNR2DLevel": 4,
+                    "SSNR3DLevel": 4,
+                    "IrisMode": "Auto",
+                    "IrisFno": "F1.3",
+                    "AGCMode": "MaxGain",
+                    "AGCLevel": 1,
+                    "AGCMaxGainLevel": 30,
+                    "DayNightMode": "Auto",
+                    "DayNightSwitchingTime": "5s",
+                    "DayNightSwitchingMode": "Normal",
+                    "DNSwitchColorToBWThreshold": 70,
+                    "DNSwitchBWToColorThreshold": 30,
+                    "DayNightAlarmIn": "SwitchToBWIfCloses",
+                    "DayNightModeSchedules": {
+                        "EveryDay": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "SUN": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "MON": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "TUE": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "WED": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "THU": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "FRI": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "SAT": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        }
+                    },
+                    "WDRControlMode": "AlwaysOn"
+                },
+                {
+                    "ImagePresetMode": "Vivid",
+                    "CompensationMode": "Off",
+                    "BLCLevel": "Medium",
+                    "NormalizedBLCLevel": 50,
+                    "BLCAreaTop": 31,
+                    "BLCAreaBottom": 71,
+                    "BLCAreaLeft": 31,
+                    "BLCAreaRight": 71,
+                    "BLCAreaCoordinates": [
+                        {
+                            "x1": 1164,
+                            "y1": 655
+                        },
+                        {
+                            "x2": 2715,
+                            "y2": 1528
+                        }
+                    ],
+                    "HLCLevel": "Medium",
+                    "NormalizedHLCLevel": 50,
+                    "HLCMaskTone": 100,
+                    "HLCMode": "On",
+                    "HLCMaskColor": "Black",
+                    "HLCDimming": "Off",
+                    "HLCAreaTop": 31,
+                    "HLCAreaBottom": 71,
+                    "HLCAreaLeft": 31,
+                    "HLCAreaRight": 71,
+                    "HLCAreaCoordinates": [
+                        {
+                            "x1": 1164,
+                            "y1": 655
+                        },
+                        {
+                            "x2": 2715,
+                            "y2": 1528
+                        }
+                    ],
+                    "WDRLevel": "Medium",
+                    "WDRAreaTop": 1,
+                    "WDRAreaBottom": 100,
+                    "WDRAreaLeft": 1,
+                    "WDRAreaRight": 100,
+                    "WDRAreaCoordinates": [
+                        {
+                            "x1": 1,
+                            "y1": 1
+                        },
+                        {
+                            "x2": 3840,
+                            "y2": 2160
+                        }
+                    ],
+                    "AutoShortShutterSpeed": "1/25",
+                    "AutoLongShutterSpeed": "1/12000",
+                    "PreferShutterSpeed": "1/50",
+                    "PreferShutterAISupportEnable": false,
+                    "AFLKMode": "Off",
+                    "SSNREnable": true,
+                    "SSNRMode": "Manual",
+                    "SSNRLevel": 12,
+                    "SSNR2DLevel": 12,
+                    "SSNR3DLevel": 12,
+                    "IrisMode": "Auto",
+                    "IrisFno": "F1.3",
+                    "AGCMode": "MaxGain",
+                    "AGCLevel": 1,
+                    "AGCMaxGainLevel": 60,
+                    "DayNightMode": "Auto",
+                    "DayNightSwitchingTime": "5s",
+                    "DayNightSwitchingMode": "Normal",
+                    "DNSwitchColorToBWThreshold": 70,
+                    "DNSwitchBWToColorThreshold": 30,
+                    "DayNightAlarmIn": "SwitchToBWIfCloses",
+                    "DayNightModeSchedules": {
+                        "EveryDay": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "SUN": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "MON": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "TUE": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "WED": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "THU": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "FRI": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        },
+                        "SAT": {
+                            "DayNightSchedule": true,
+                            "FromTo": "0:00-23:59"
+                        }
+                    },
+                    "WDRControlMode": "AlwaysOn"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "VideoAnalysis": [
+        {
+            "Channel": 0,
+            "DetectionType": "MDAndIV",
+            "SensitivityLevel": 80,
+            "ObjectSizeByDetectionTypes": [
+                {
+                    "DetectionType": "MotionDetection",
+                    "MinimumObjectSize": "0,0",
+                    "MaximumObjectSize": "99,99",
+                    "MinimumObjectSizeInPixels": "48,48",
+                    "MaximumObjectSizeInPixels": "3840,2160",
+                    "EnableMetadataInExcludeArea": false
+                },
+                {
+                    "DetectionType": "IntelligentVideo",
+                    "MinimumObjectSize": "1,2",
+                    "MaximumObjectSize": "50,89",
+                    "MinimumObjectSizeInPixels": "65,65",
+                    "MaximumObjectSizeInPixels": "1944,1944",
+                    "EnableMetadataInExcludeArea": false
+                }
+            ],
+            "ROIs": [
+                {
+                    "ROI": 1,
+                    "Mode": "Inside",
+                    "SensitivityLevel": 80,
+                    "ThresholdLevel": 5,
+                    "Coordinates": [
+                        {
+                            "x": 156,
+                            "y": 121
+                        },
+                        {
+                            "x": 252,
+                            "y": 1962
+                        },
+                        {
+                            "x": 3341,
+                            "y": 1992
+                        },
+                        {
+                            "x": 3437,
+                            "y": 205
+                        }
+                    ],
+                    "HandoverIndex": 0,
+                    "Duration": 0
+                }
+            ],
+            "Lines": [
+                {
+                    "Line": 1,
+                    "Coordinates": [
+                        {
+                            "x": 1866,
+                            "y": 127
+                        },
+                        {
+                            "x": 1961,
+                            "y": 1962
+                        }
+                    ],
+                    "Mode": "BothDirections",
+                    "HandoverIndex": 0,
+                    "RuleName": "",
+                    "ObjectTypeFilter": [
+                        "Person",
+                        "Vehicle"
+                    ],
+                    "ObjectTypeFilterDetails": {
+                        "Vehicle": {
+                            "Types": [
+                                "Bicycle",
+                                "Car",
+                                "Motorcycle",
+                                "Bus",
+                                "Truck"
+                            ]
+                        }
+                    }
+                }
+            ],
+            "DefinedAreas": [
+                {
+                    "DefinedArea": 1,
+                    "Type": "Inside",
+                    "Mode": [
+                        "AppearDisappear",
+                        "Entering",
+                        "Exiting",
+                        "Intrusion",
+                        "Loitering"
+                    ],
+                    "Coordinates": [
+                        {
+                            "x": 282,
+                            "y": 187
+                        },
+                        {
+                            "x": 216,
+                            "y": 1968
+                        },
+                        {
+                            "x": 3323,
+                            "y": 1992
+                        },
+                        {
+                            "x": 3155,
+                            "y": 199
+                        }
+                    ],
+                    "AppearanceDuration": 10,
+                    "LoiteringDuration": 10,
+                    "HandoverIndex": 0,
+                    "IntrusionDuration": 2,
+                    "RuleName": "",
+                    "ObjectTypeFilter": [
+                        "Person",
+                        "Vehicle"
+                    ],
+                    "ObjectTypeFilterDetails": {
+                        "Vehicle": {
+                            "Types": [
+                                "Bicycle",
+                                "Car",
+                                "Motorcycle",
+                                "Bus",
+                                "Truck"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

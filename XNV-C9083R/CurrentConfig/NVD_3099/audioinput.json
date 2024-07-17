@@ -1,0 +1,16 @@
+{
+    "AudioInputs": [
+        {
+            "Channel": 0,
+            "SampleRate": 8000,
+            "Mode": "Mono",
+            "Source": "LineIn",
+            "PowerOnExternalMIC": true,
+            "EncodingType": "G711",
+            "Bitrate": 64000,
+            "Gain": 5,
+            "NoiseReduction": false,
+            "NoiseReductionSensitivity": 1
+        }
+    ]
+}
