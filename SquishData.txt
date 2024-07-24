@@ -1,0 +1,58 @@
+{
+  "ServerIPAddress": "10.29.175.206",
+  "CamerasIPAddress": "10.29.175.206",
+	"CamerasInformation": {"First":
+				{"CameraModel": "XNV-6123R",
+				 "CameraBrand": "Hanwha Vision",
+				 "CameraMac": "ce:af:1d:0a:0b:e2",
+				 "CameraStatus": "Not authenticated"},
+		"Second": {
+			"CameraModel": "XNV-C9083R",
+			"CameraBrand": "Hanwha Vision",
+			"CameraMac": "ce:af:1d:0a:0b:ee",
+			"CameraStatus": "Not authenticated"
+		},
+		"Third": {
+			"CameraModel": "PNM-C32083RVQ",
+			"CameraBrand": "Hanwha Vision",
+			"CameraMac": "ce:af:1d:0a:0b:ca",
+			"CameraStatus": "Not authenticated"
+		},
+		"Fourth_XNV-6123R": {
+			"CameraModel": "XNV-6123R",
+			"CameraBrand": "Hanwha Vision",
+			"CameraMac": "ce:af:1d:0a:0b:e8",
+			"CameraStatus": "Not authenticated"
+		},
+		"Fifth_PNB-A6001": {
+			"CameraModel": "PNB-A6001",
+			"CameraBrand": "Hanwha Vision",
+			"CameraMac": "ce:af:1d:0a:0b:b8",
+			"CameraStatus": "Not authenticated"
+		},
+		"Sixth_PNM-C16013RVQ": {
+			"CameraModel": "PNM-C16013RVQ",
+			"CameraBrand": "Hanwha Vision",
+			"CameraMac": "ce:af:1d:0a:0b:c4",
+			"CameraStatus": "Not authenticated"
+		},
+		"Seven_QNF-9010": {
+			"CameraModel": "QNF-9010",
+			"CameraBrand": "Hanwha Vision",
+			"CameraMac": "ce:af:1d:0a:0b:d0",
+			"CameraStatus": "Not authenticated"
+		},
+		"Eight_XNF-8010RV": {
+			"CameraModel": "XNF-8010RV",
+			"CameraBrand": "Hanwha Vision",
+			"CameraMac": "ce:af:1d:0a:0b:dc",
+			"CameraStatus": "Not authenticated"
+		},
+		"Nine_XNF-9013RV": {
+			"CameraModel": "XNF-9013RV",
+			"CameraBrand": "Hanwha Vision",
+			"CameraMac": "ce:af:1d:0a:0b:e2",
+			"CameraStatus": "Not authenticated"
+		}
+			}
+}   
